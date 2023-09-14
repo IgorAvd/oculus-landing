@@ -196,7 +196,7 @@ a {
 .section-top {
   height: calc(100vh - 81px);
   padding-top: 11%;
-  background-image: url(../../images/top-bg.jpg);
+  background-image: url(../images/top-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -374,7 +374,7 @@ a {
           align-items: flex-start;
   width: 280px;
   height: 150px;
-  background-image: url(../../images/content-bg.jpg);
+  background-image: url(../images/content-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -577,8 +577,8 @@ a {
   font-weight: 700;
   line-height: 1;
   z-index: -1;
-  -webkit-animation: line-text 6s linear 1s infinite;
-          animation: line-text 6s linear 1s infinite;
+  -webkit-animation: line-text 6s linear 0.1s infinite;
+          animation: line-text 6s linear 0.1s infinite;
 }
 
 @-webkit-keyframes line-text {
@@ -680,7 +680,7 @@ a {
 
 .promo__inner {
   position: relative;
-  background-image: url(../../images/promo.jpg);
+  background-image: url(../images/promo.jpg);
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
