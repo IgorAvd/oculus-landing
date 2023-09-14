@@ -1,0 +1,36 @@
+.footer {
+  margin-bottom: 44px;
+  padding: 30px 0;
+  border-top: 1px solid #cacad6;
+  border-bottom: 1px solid #cacad6;
+}
+
+.social-list {
+  display: flex;
+  gap: 20px;
+  justify-self: end;
+}
+
+@media screen and (max-width: 1140px) {
+  .footer .menu {
+    display: none;
+  }
+
+  .footer .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer .nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .social-list {
+    order: -1;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+}
